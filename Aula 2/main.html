@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aula 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <h3>Qual seu IMC?</h3>
+      <table>
+        <tr>
+            <th>Qual sua altura?</th>
+            <td><input type="text" name="high" id="high" value=""></td>
+            <td> cm </td>
+        </tr>
+        <tr>
+          <th>Qual o seu peso?</th>
+          <td><input type="text" name="weight" id="weight" value=""> </td>
+          <td> kg</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="button" onclick="calcular()" name="calcular">Calcular</button></td>
+        </tr>
+      </table>
+      <div>
+        <p id="result"></p>
+      </div>
+  <div id="media">
+    <button type="button" onclick="mediaCalc()" name="media">Média de idades</button>
+    <p id="result2"></p>
+  </div>
+  <div id="avo">
+    <button type="button" onclick="idadeAvo()" name="avo">Data da avó da amiga de Maria que nasceu em 1940</button>
+    <p id="result3"></p>
+  </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>

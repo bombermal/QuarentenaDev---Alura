@@ -1,0 +1,11 @@
+img {
+  width: 100px;
+}
+* {
+  font-family: monospace;
+  background-color: black;
+  color: grey;
+}
+head {
+  color: green;
+}

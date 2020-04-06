@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aula 3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <div class="">
+    <table>
+      <tr>
+        <th>Qual a distância a ser percorrida?</th>
+        <td><input type="text" id="distancia" value=""> </td>
+        <td>Km</td>
+      </tr>
+      <tr>
+        <th>Quanto tempo di viajem?</th>
+        <td><input type="text" id="tempo" value=""> </td>
+        <td>h</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><button type="button" onclick="calcular()" name="button">Calcular</button> </td>
+      </tr>
+      </table>
+
+    <div class="">
+      <table>
+        <tr>
+          <td>Total da corrida = R$</td>
+          <td><p id="result"></p></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
