@@ -8,3 +8,5 @@ Repositório criado para acompanhar aulas da quarentena dev da Alura.
 - [X] Aula 4 - Distância da corrida
 - [X] Aula 5 - Currículo
 - [X] Aula 6 - Ficha e desafio
+- [X] Aula 7 - Sorteio
+- [X] Aula 8 - Likes
