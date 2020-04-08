@@ -6,4 +6,5 @@ Repositório criado para acompanhar aulas da quarentena dev da Alura.
 - [X] Aula 2 - IMC
 - [X] Aula 3 - Pular linha
 - [X] Aula 4 - Distância da corrida
-- [ ] Aula 5 -
+- [X] Aula 5 - Currículo
+- [X] Aula 6 - Ficha e desafio
